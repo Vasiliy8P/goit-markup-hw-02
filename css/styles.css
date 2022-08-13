@@ -1,16 +1,21 @@
-:root {
-
-}
-
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* белый #FFFFFF */
 /* цвет акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+}
+
 body {
-    color: #212121;
-    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 
 a {
@@ -26,36 +31,92 @@ a {
     color: #000000;
 }
 .part-logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* site-navigation */
 
 .site-nav .link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* contacts-header */
 
 .contacts-header a {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 .contacts-header a:hover,
 .contacts-header a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* hero */
 
+.hero {
+    background-color: #2F303A;
+}
 
-/* sections about company */
+.hero-title {
+    color: var(--white-text-color);
+}
 
-.section-text {
-    color: #757575;
+/* button */
+
+.button {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* section about company */
+
+.section-title {
+
+}
+
+.about-list .title {
+
+}
+
+.about-list .text {
+    color: var(--secondary-text-color);
+}
+
+/* Team of company */
+
+.list-team .member {
+
+}
+
+.list-team .position {
+    color: var(--secondary-text-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: var(--white-text-color);
+}
+
+.contact-footer a {
+    color: var(--white-text-color);
+}
+
+.contact-footer .mail, 
+.contact-footer .tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer a:hover,
+.contact-footer a:focus {
+    color: var(--accent-color);
 }
