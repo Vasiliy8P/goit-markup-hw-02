@@ -1,0 +1,61 @@
+:root {
+
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* цвет акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+body {
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/* Logo */
+
+.logo, .part-logo {
+    color: #000000;
+}
+.part-logo {
+    color: #2196F3;
+}
+
+/* site-navigation */
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* contacts-header */
+
+.contacts-header a {
+    color: #757575;
+}
+
+.contacts-header a:hover,
+.contacts-header a:focus {
+    color: #2196F3;
+}
+
+/* hero */
+
+
+/* sections about company */
+
+.section-text {
+    color: #757575;
+}
