@@ -4,6 +4,8 @@
 /* цвет акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
+/* стили для index.html */
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -21,6 +23,7 @@ body {
 a {
     text-decoration: none;
 }
+
 .list {
     list-style: none;
 }
@@ -30,6 +33,7 @@ a {
 .logo, .part-logo {
     color: #000000;
 }
+
 .part-logo {
     color: var(--accent-color);
 }
@@ -42,6 +46,10 @@ a {
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
@@ -120,3 +128,7 @@ a {
 .contact-footer a:focus {
     color: var(--accent-color);
 }
+
+
+/* стили для portfolio.html */
+
