@@ -187,3 +187,40 @@ a {
 
 /* стили для portfolio.html */
 
+/* filter buttons */
+
+.filter button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.filter button:hover,
+.filter button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* examples-project */
+
+.examples-projects a {
+    color: inherit;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
