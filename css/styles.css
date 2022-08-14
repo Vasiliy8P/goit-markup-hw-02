@@ -18,6 +18,10 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 a {
@@ -30,9 +34,14 @@ a {
 
 /* Logo */
 
-.logo, .part-logo {
+.logo, 
+.part-logo {
     color: #000000;
-}
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+   }
 
 .part-logo {
     color: var(--accent-color);
@@ -42,6 +51,10 @@ a {
 
 .site-nav .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, 
@@ -57,6 +70,10 @@ a {
 
 .contacts-header a {
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts-header a:hover,
@@ -72,6 +89,12 @@ a {
 
 .hero-title {
     color: var(--white-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* button */
@@ -79,30 +102,54 @@ a {
 .button {
     color: var(--white-text-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* section about company */
 
 .section-title {
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .about-list .title {
-
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .about-list .text {
     color: var(--secondary-text-color);
+    font-weight: 400;
 }
 
 /* Team of company */
 
-.list-team .member {
+.section-team {
+    background-color: var(--secondary-background-color);
+}
 
+.list-team .member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .list-team .position {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* footer */
@@ -113,19 +160,27 @@ a {
 
 .logo-footer {
     color: var(--white-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
-.contact-footer a {
+.contacts-footer a {
     color: var(--white-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
-.contact-footer .mail, 
-.contact-footer .tel {
+.contacts-footer .mail, 
+.contacts-footer .tel {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-footer a:hover,
-.contact-footer a:focus {
+.contacts-footer a:hover,
+.contacts-footer a:focus {
     color: var(--accent-color);
 }
 
