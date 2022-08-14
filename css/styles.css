@@ -110,19 +110,18 @@ a {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* section about company */
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 
 .about-list .title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -130,7 +129,6 @@ a {
 
 .about-list .text {
     color: var(--secondary-text-color);
-    font-weight: 400;
 }
 
 /* Team of company */
@@ -147,7 +145,6 @@ a {
 
 .list-team .position {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -169,7 +166,6 @@ a {
 .contacts-footer a {
     color: var(--white-text-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -197,6 +193,7 @@ a {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .filter button:hover,
@@ -212,7 +209,6 @@ a {
 }
 
 .project-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -220,7 +216,6 @@ a {
 
 .project-type {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
